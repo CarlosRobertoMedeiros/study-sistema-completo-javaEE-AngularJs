@@ -6,8 +6,8 @@
 
     <display-name>siscomp-api</display-name>
 
-
-
-
+    <welcome-file-list>
+        <welcome-file>/dist/index.html</welcome-file>
+    </welcome-file-list>
 
 </web-app>
