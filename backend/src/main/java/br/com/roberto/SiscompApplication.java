@@ -19,7 +19,7 @@ public class SiscompApplication extends Application {
         conf.setTitle("SisComp - Api");
         conf.setDescription("SisComp - Sistema Completo");
         conf.setVersion("1.0.0");
-        conf.setBasePath("/swagger-demo/api");
+        conf.setBasePath("/siscomp-api/api");
         conf.setResourcePackage("br.com.roberto.v1.rest");
 
         conf.setScan(true);

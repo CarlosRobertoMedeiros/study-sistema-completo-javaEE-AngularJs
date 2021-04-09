@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Swagger UI</title>
-    <link rel="stylesheet" type="text/css" href="/backend/dist/swagger-ui.css" >
+    <link rel="stylesheet" type="text/css" href="../dist/swagger-ui.css" >
     <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
     <style>
@@ -33,14 +33,13 @@
   <body>
     <div id="swagger-ui"></div>
 
-    <script src="/backend/dist/swagger-ui-bundle.js"> </script>
-    <script src="/backend/dist/swagger-ui-standalone-preset.js"> </script>
+    <script src="../dist/swagger-ui-bundle.js"> </script>
+    <script src="../dist/swagger-ui-standalone-preset.js"> </script>
     <script>
     window.onload = function() {
       // Begin Swagger UI call region
       const ui = SwaggerUIBundle({
-        //url: "../../iga-api/api/swagger.json",
-		url: "../../swagger-demo/api/swagger.json",
+        url: "../../siscomp-api/api/swagger.json",
         dom_id: '#swagger-ui',
         deepLinking: true,
         presets: [
